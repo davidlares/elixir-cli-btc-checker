@@ -25,6 +25,9 @@ end
  - Instalar dependencias: `mix deps.get`
  - Correr proyecto: `mix`
 
+
+ ![uso](https://github.com/davidlares/davidElixir/blob/master/screenshots/btc.png?raw=true)
+
 ## Créditos
 
 - [David E Lares S](https://twitter.com/@davidlares3)
