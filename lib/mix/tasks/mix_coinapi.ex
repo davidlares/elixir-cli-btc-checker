@@ -4,7 +4,7 @@ defmodule Mix.Tasks.MixCoinapi do
 
   def run(_) do
     # sentences for running the module
-    IO.puts "Hello, World, from task"
+    # IO.puts "Hello, World, from task"
     Coinapi.bitcoin
   end
 
