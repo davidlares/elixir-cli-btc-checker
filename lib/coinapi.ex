@@ -2,6 +2,9 @@ defmodule Coinapi do
 
   # we are using bitcoin, so the method is called like this
   def bitcoin do
+
+    HTTPotion.start  # starting the package
+
     # piping requests
     request("https://api.coinmarketcap.com/v1/ticker/bitcoin")
     |> body
