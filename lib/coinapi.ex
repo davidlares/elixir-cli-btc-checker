@@ -10,41 +10,40 @@ defmodule Coinapi do
     |> get_map_to_list
     |> create_message
     |> show_message
-
   end
 
   # defining GET request
-  def request(url) do
+  defp request(url) do
     HTTPotion.get url
   end
 
   # getting response body
-  def body(response) do
+  defp body(response) do
     response.body
   end
 
   # parsing body to tuple
-  def parse_body_to_tuple(body) do
+  defp parse_body_to_tuple(body) do
     Poison.Parser.parse body
   end
 
   # getting the list per Tuple
-  def get_list_per_tuple(tuple) do
+  defp get_list_per_tuple(tuple) do
     elem(tuple,1)
   end
 
   # getting the map from the list
-  def get_map_to_list(list) do
+  defp get_map_to_list(list) do
     list |> Enum.at 0
   end
 
   # creating custom message
-  def create_message(map) do
+  defp create_message(map) do
     "> #{map["name"]} (#{map["symbol"]}) have an actual price of #{map["price_usd"]} USD"
   end
 
   # showing the custom message
-  def show_message(message) do
+  defp show_message(message) do
     IO.puts message
   end
 
