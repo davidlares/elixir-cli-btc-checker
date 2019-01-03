@@ -2,17 +2,16 @@ defmodule Coinapi do
 
   # we are using bitcoin, so the method is called like this
   def bitcoin do
-
-    HTTPotion.start  # starting the package
-
+    # starting the package
+    HTTPotion.start
     # piping requests
-    request("https://api.coinmarketcap.com/v1/ticker/bitcoin")
-    |> body
-    |> parse_body_to_tuple
-    |> get_list_per_tuple
-    |> get_map_to_list
-    |> create_message
-    |> show_message
+    request("https://api.coinmarketcap.com/v1/ticker/bitcoin/")
+    |> body()
+    |> parse_body_to_tuple()
+    |> get_list_per_tuple()
+    |> get_map_to_list()
+    |> create_message()
+    |> show_message()
   end
 
   # defining GET request
