@@ -1,4 +1,4 @@
-# davidElixir
+## davidElixir
 
 Este repo es un programa de CLI el cual nos permite conocer el precio actual del Bitcoin (BTC) a traves de la comunicacion de la API de CoinMarketCap. Desarrollado en Elixir Lang.
 
@@ -29,9 +29,7 @@ end
  ![uso](https://github.com/davidlares/davidElixir/blob/master/screenshots/btc.png?raw=true)
 
 ## Créditos
-
-- [David E Lares S](https://twitter.com/@davidlares3)
+[David E Lares S](https://davidlares.com)
 
 ## Licencia
-
-- [MIT](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)
