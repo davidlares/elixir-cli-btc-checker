@@ -4,7 +4,7 @@ This repo is a CLI program that allows us to find the current price of Bitcoin (
 
 ## Installation (unfinished)
 
-Yes [available in Hex](https://hex.pm/docs/publish), the package (module) can be installed by adding `coinapi` to the list of dependencies in `mix.exs`:
+The package (module) can be installed by adding `coinapi` to the list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
