@@ -1,11 +1,10 @@
-## davidElixir
+## BTC checker with Elixir
 
-Este repo es un programa de CLI el cual nos permite conocer el precio actual del Bitcoin (BTC) a traves de la comunicacion de la API de CoinMarketCap. Desarrollado en Elixir Lang.
+This repo is a CLI program that allows us to find the current price of Bitcoin (BTC) through communication with the CoinMarketCap API. Developed in Elixir Lang.
 
-## Instalacion (no completada)
+## Installation (unfinished)
 
-Si [disponible in Hex](https://hex.pm/docs/publish), el paquete (modulo) puede ser instalado
-agregando `coinapi` a la lista de dependencias en `mix.exs`:
+Yes [disponible in Hex](https://hex.pm/docs/publish), the package (module) can be installed by adding `coinapi` to the list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,21 +14,21 @@ def deps do
 end
 ```
 
-## Dependencias
+## Dependencies
 
  - HTTPotion: `{:httpotion, "~> 3.1.0"}`
  - Poison: `{:poison,  "~> 3.1.0"}`
 
-## Uso
+## Usage
 
- - Instalar dependencias: `mix deps.get`
- - Correr proyecto: `mix`
+ - Install dependencies: `mix deps.get`
+ - Run: `mix`
 
 
  ![uso](https://github.com/davidlares/davidElixir/blob/master/screenshots/btc.png?raw=true)
 
-## Créditos
-[David E Lares S](https://davidlares.com)
+## Credits
+[David Lares S](https://davidlares.com)
 
-## Licencia
+## License
 [MIT](https://opensource.org/licenses/MIT)
